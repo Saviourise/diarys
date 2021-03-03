@@ -1,0 +1,54 @@
+/*
+Theme Name: Dobricina tema
+Theme URI: 
+Author: Dobrica Menkovic
+Author URI: http://www.  ....
+*/
+header, section, footer, aside, nav, main, article, figure {display: block;}
+* {
+    box-sizing: border-box;
+}
+body {
+	display: block;
+	-webkit-font-smoothing: antialiased;
+	margin: 0; 
+	padding: 0;
+	font-size:100%;
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	width:100%;
+	height:auto;
+	background: #fff;
+	color: #000000;
+}
+/* ++++++  system.php ++++++ */
+h2 {
+	padding: 14vh 12vw;
+	color: #00172d;
+}
+input.system {
+	padding: 6vh 3vw;
+	background-color: #00172d;
+	color: white;
+	font-size: 20px;
+}
+input.system:hover {
+	color: #0e85f7;
+	box-shadow: 5px 1px 18px #0e85f7;
+}
+/* ++++++  admin.php ++++++ */
+#admin {
+	padding: 26vh 12vw;
+}
+input.admin {
+	background-color: white;
+	color: #00172d;
+	font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 2.5em;
+    border-radius: 25px;
+    border: 2px solid #00172d;
+    padding: 20px;
+    margin-right: 50px;
+    width: 200px;
+    height: 150px;
+}

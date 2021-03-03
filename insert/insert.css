@@ -1,0 +1,133 @@
+/*
+Theme Name: Dobricina tema
+Theme URI: 
+Author: Dobrica Menkovic
+Author URI: http://www.  ....
+*/
+header, section, footer, aside, nav, main, article, figure {display: block;}
+* {
+    box-sizing: border-box;
+}
+body {
+	display: block;
+	-webkit-font-smoothing: antialiased;
+	margin: 0; 
+	padding: 0;
+	font-size:100%;
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	width:100%;
+	height:auto;
+	background: #fff;
+	color: #000000;
+}
+#vraper {
+	width: 100%;
+	height: auto;
+}
+.prijava {
+	width: 90vw;
+	height: 90vh;
+	margin: 2vh auto;
+	padding: 5vh 5vw;
+	border: 1px solid #fff;
+	box-shadow:2px 2px 8px #00172d;
+}
+.prijava h2 {
+	text-align: center;
+	padding-bottom: 5vh;
+	color: #00172d;
+}
+form {
+	width: 92%;
+	margin: auto;
+}
+#informacija {
+	color: #006600;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: 'Open Sans', sans-serif;
+}
+.prijava input {
+	/*width: 92%;*/
+	padding: 8px 20px;
+    margin: 8px auto;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    -webkit-transition: 1.0s;
+    transition: 1.0s;
+    outline: none;
+}
+.prijava select {
+	font-size: 1.5em;
+	padding: 8px 20px;
+    margin: 8px auto;
+}
+input[type="submit"] {
+	width: 25%;
+	float: left;
+	color: white;
+	background-color: #00172d;
+	margin: 6% 2% 2% 0;
+}
+input[type="reset"] {
+	width: 25%;
+	color: #c00000;
+	margin: 2% 2% 2% 0;
+}
+a.uput_dugme {
+	text-decoration: none;
+	font-weight: bold;
+	margin-left: 6%;
+}
+.clear {
+	clear: both;
+}
+#status {
+	line-height: 30px;
+	font-weight: bold;
+	width: 60%;
+	margin: auto;
+}
+.uputstvo {
+	margin-top: 11vh;
+}
+.uputstvo h1 {
+	text-align: center;
+	color: #000;
+	font-family: 'Poiret One', cursive;
+}
+.uputstvo p {
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-size: 3vh;
+	width: 86%;
+	padding: 2vw;
+	margin: 10px auto;
+	line-height: 7vh; 
+}
+span#minitel {
+        outline: 2px solid #00172d;
+        float: right;
+        margin: 6% 2% 2% 0;
+        width: 25%;
+        text-align: center;
+        outline: 2px solid
+}
+span#minitel a { 
+        font-size: 1.95em;
+	    color: #00172d;
+	    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px) { 
+	input[type="submit"],input[type="reset"] {
+		display: inline-block;
+		width: 92%;
+		margin: 2%;
+	}
+        span#minitel a { 
+               font-size: 1em;
+        }
+}
