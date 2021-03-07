@@ -39,7 +39,7 @@
     <div style = "overflow-x:auto;">
 	<table>
 		<caption>Teacher<button class="btn" onClick="location.href='teacher_dashboard.php';">Search Class</button><button class="btn" onClick="window.print()">Print</button><button class="btn" onClick="location.href='../system.php';">Close </button><br><br><span id="ses"><?php echo $_SESSION ['tfname']?> <?php echo $_SESSION ['tlname']?></span></caption>
-		<thead> <tr><th>FirstName</th><th>LastName</th><th>Subject</th><th>Grades</th><th>Class</th></tr></thead>
+		<thead> <tr><th>FirstName</th><th>LastName</th><th>Subject</th><th>Grades</th><th>Class</th><th>Grade</th></tr></thead>
       <?php 
         if (isset($_GET['s'])) {
           $s = $_GET['s'];
